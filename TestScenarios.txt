@@ -1,0 +1,24 @@
+
+Functional Test Cases (Positive and Negative scenarios)
+1	Verify if a user can log in with valid email address and password.
+2   Verify if a user can log in with a valid phone number and password.
+3   Verify if the user gets an option to enter the password when he enter the valid email & clicks the next button.
+4   Verify if the user will get the error message, when user don’t enter an email address or phone number & just click the Next button.
+5	Verify if the user will get the error  message on trying to login via entering the invalid email/invalid phone number & clicking the Next button.
+6	Verify if a user cannot log in with a valid phone number and an invalid password.
+7	Verify if a user cannot log in with a valid email address and a wrong password.
+8	Verify the 'Forgot email' functionality is working as expected.
+9	Verify the 'Forgot password' functionality is working as expected.
+10  Verify if the 'Enter' key of the keyboard is working correctly on the login page.
+11  Verify that 'create account' is working fine and on clicking it, user navigated to account page
+
+Non Functional Test cases
+Verify the time taken to login
+Verify the timeout functionality of the login session.
+Verify the Login page against SQL injection attack.
+
+Other Test Cases
+
+    Verify the time taken to log in with a valid username and password.	(Performance & Positive Testing)
+	Verify if the font, text color, and color coding of the Login page is as per the standard.	(UI Testing & Positive Testing
+	Verify the login page and all its controls in different browsers	Browser Compatibility & Positive Testing.
