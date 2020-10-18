@@ -22,7 +22,7 @@ This project has been built and tested on Mac OS Catalina and IntelliJ Idea IDE
 
 ### Cloning the project 
 ```markdown
-git clone https://github.com/poojadixit1908/
+git clone https://github.com/poojadixit1908/infotrack-qa-challenge.git
 ```
 
 ### Compiling and running the project
