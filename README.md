@@ -29,11 +29,15 @@ git clone https://github.com/poojadixit1908/infotrack-qa-challenge.git
 
 #### Web automation 
 ```markdown
+cd infotrack-qa-challenge
 mvn clean install -Denv=prod -Dbrowser=chrome
 ```
 ### System parameters
  * `env` - can be specified in the maven commandline as -Denv=prod
  * `browser` - supports chrome and firefox browsers and can be specified with maven command line as __-Dbrowser=chrome__ or __-Dbrowser=firefox__
+ 
+### Test Reports
+ The project uses maven-surefire plugin for test reporting. The generated reports can be found at: `/target/site/cucumber-pretty/index.html`
  
 ##Note
 This project automates important scenarios (with more ROI) from the below

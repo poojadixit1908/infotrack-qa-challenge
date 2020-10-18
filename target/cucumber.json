@@ -1,0 +1,256 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# new feature"
+      },
+      {
+        "line": 2,
+        "value": "# Tags: optional"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1888236578,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "I want to test google account login screen with valid credential",
+        "description": "",
+        "id": "test-google-account-login-screen;i-want-to-test-google-account-login-screen-with-valid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 99965758,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefs.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1178692175,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# Verify if a user will be able to login with a valid username and valid password."
+              }
+            ],
+            "line": 9,
+            "name": "Navigate to google account login screen",
+            "match": {
+              "location": "LoginStepDefs.navigateToGoogleAccountLoginScreen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2052994568,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User logged in using valid username and password",
+            "match": {
+              "location": "LoginStepDefs.userLoggedInUsingValidUsernameAndPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4803936677,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be navigated to home page",
+            "match": {
+              "location": "LoginStepDefs.userShouldBeNavigatedToHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1076801122,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "I want to test google account login screen with Invalid credential",
+        "description": "",
+        "id": "test-google-account-login-screen;i-want-to-test-google-account-login-screen-with-invalid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 84740389,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefs.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1378393868,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 15,
+                "value": "# Verify if a user will be able to login with a invalid username"
+              }
+            ],
+            "line": 16,
+            "name": "User is on the google account login screen",
+            "match": {
+              "location": "LoginStepDefs.userIsOnTheGoogleAccountLoginScreen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 222988503,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enter invalid username",
+            "match": {
+              "location": "LoginStepDefs.userEnterInvalidUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 605758744,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should get an error message and should not be allowed to proceed further",
+            "match": {
+              "location": "LoginStepDefs.userShouldGetAnErrorMessageAndShouldNotBeAllowedToProceedFurther()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1019284788,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "I want to test google account login screen with empty data",
+        "description": "",
+        "id": "test-google-account-login-screen;i-want-to-test-google-account-login-screen-with-empty-data",
+        "after": [
+          {
+            "result": {
+              "duration": 80795344,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefs.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1523767144,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 21,
+                "value": "# Verify if a user will be able to login without entering any data in the \u0027email or phone\u0027 field"
+              }
+            ],
+            "line": 23,
+            "name": "User try to login with empty data",
+            "match": {
+              "location": "LoginStepDefs.userTryToLoginWithEmptyData()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54462296,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User do not enter any data in the \u0027email or phone\u0027 field",
+            "match": {
+              "location": "LoginStepDefs.userDoNotEnterAnyDataInTheEmailOrPhoneField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 147433134,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click on next button",
+            "match": {
+              "location": "LoginStepDefs.userClickOnNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45700108,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user should get an error message also should not be allowed to proceed further",
+            "match": {
+              "location": "LoginStepDefs.userShouldGetAnErrorMessageAlsoShouldNotBeAllowedToProceedFurther()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test google account login screen",
+    "description": "",
+    "id": "test-google-account-login-screen",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
